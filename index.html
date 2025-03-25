@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:400px)"href="phone.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I Am <br> Louie Nor A. Cudillo</h1>
+            <a href="resume/Louie Resume New.pdf" download>My Resume</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">About Me</h1>
+        <div id="pic">
+            
+            <img src="images/tawing2.jpg" alt="">
+            <div id="intro">
+                <h2>Louie Nor A. Cudillo</h2>
+                <p>First and foremost, 
+                    I am a born again Christian and during my college days I was a governor in our college department and a leader in our group thesis. 
+                    <br>After I graduated, I was not able to have a job and it took me a year to get one. 
+                    And receiving that job was the first phase of my Career.
+                    <br>I am a college graduate in STI College Surigao with a degree of BS in Computer Engineering. 
+                    I am an active leader, flexible and willing to learn more.
+                </p>
+                <br>
+                <p>I am also adaptable and resourceful with positive outlook and good for troubleshooting technical issues. 
+                    Possesses a basic knowledge of computer systems and networks, paired with skills in hardware 
+                    installation. Versatile IT Technician ready to fix faulty hardware, install new assets and support 
+                    continuous business operations. Adapts to rapidly changing work situations and employee 
+                    realities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">Contact</h1>
+        <form method="POST" id="form" name="submit-to-google-sheet">
+            <input type="hidden" name="access_key" value="3cce0fb7-61d2-4129-be36-616b98d08317">
+            <input type="text" class="input" name="name" placeholder="Enter Your Name" required>
+            <input type="email" class="input" name="email" placeholder="Enter Your Email" required>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message" required></textarea>
+            <button type="submit">Send</button>
+            <div id="result" class="text-white"></div>
+        </form>
+    </section>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

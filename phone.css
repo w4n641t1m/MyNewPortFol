@@ -1,0 +1,30 @@
+/*HOME*/
+
+#home{
+    height: 820px;
+}
+.headings{
+    font-size: 1.7rem;
+}
+
+/*ABOUT*/
+
+#pic img{
+    width: 200px;
+    height: 150px;
+}
+#intro h2{
+    font-size: 1.2rem;
+}
+
+/*CONTACT*/
+
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+button{
+    width: 30%;
+}
