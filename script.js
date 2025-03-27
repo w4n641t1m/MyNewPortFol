@@ -47,3 +47,11 @@ form.addEventListener('submit', e => {
     .then(response => console.log('Success!', response))
     .catch(error => console.error('Error!', error.message))
 });
+
+
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function()
+{
+    loader.style.display = "none";
+});
