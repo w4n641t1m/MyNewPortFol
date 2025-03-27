@@ -28,3 +28,8 @@
 button{
     width: 30%;
 }
+
+
+#preloader{
+    background-size: 80%;
+}
